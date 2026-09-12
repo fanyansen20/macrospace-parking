@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@macrospace-parking/sample-lib':
+        specifier: link:../../libs/sample-lib
+        version: link:../../libs/sample-lib
       next:
         specifier: 16.1.1
         version: 16.1.1(@babel/core@7.28.5)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)

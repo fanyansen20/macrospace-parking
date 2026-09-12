@@ -2,10 +2,11 @@
   "name": "@macrospace-parking/sample-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "./index.ts",
   "private": false,
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "tsc": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
